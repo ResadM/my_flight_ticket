@@ -1,3 +1,5 @@
+import 'dart:ffi';
+
 import 'package:flutter/material.dart';
 import 'package:gap/gap.dart';
 import 'package:my_flight_ticket/util/app_layout.dart';
@@ -5,7 +7,9 @@ import 'package:my_flight_ticket/util/app_styles.dart';
 import 'package:my_flight_ticket/widgets/thick_container.dart';
 
 class TicketView extends StatelessWidget {
-  const TicketView({Key? key}) : super(key: key);
+  final double ticketMargin;
+
+  const TicketView({Key? key, required this.ticketMargin}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -14,7 +18,7 @@ class TicketView extends StatelessWidget {
       width: size.width * 0.85,
       height: AppLayout.getHeight(200),
       child: Container(
-        margin: EdgeInsets.only(right: AppLayout.getHeight(16)),
+        margin: EdgeInsets.only(right: AppLayout.getHeight(ticketMargin)),
         child: Column(
           children: [
             //...............................
@@ -212,7 +216,7 @@ class TicketView extends StatelessWidget {
                                 .copyWith(color: Colors.white),
                           ),
                           SizedBox(
-                            width: AppLayout.getWidth(10),
+                            width: AppLayout.getWidth(100),
                             child: Text(
                               "23",
                               textAlign: TextAlign.end,

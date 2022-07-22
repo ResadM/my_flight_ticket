@@ -102,7 +102,11 @@ class HomeScreen extends StatelessWidget {
               scrollDirection: Axis.horizontal,
               padding: EdgeInsets.only(left: AppLayout.getHeight(20)),
               child: Row(
-                children: List.generate(10, (index) => const TicketView()),
+                children: List.generate(
+                    10,
+                    (index) => const TicketView(
+                          ticketMargin: 16,
+                        )),
               ),
             ),
             Gap(AppLayout.getHeight(15)),
