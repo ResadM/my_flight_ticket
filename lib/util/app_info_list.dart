@@ -2,13 +2,13 @@ List<Map<String, dynamic>> hotelList = [
   {
     'image': 'one.png',
     'place': 'Open Space',
-    'destination': 'London',
+    'destination': 'Baku',
     'price': 25
   },
   {
     'image': 'two.png',
     'place': 'Global Wille',
-    'destination': 'London',
+    'destination': 'Istanbul',
     'price': 40
   },
   {

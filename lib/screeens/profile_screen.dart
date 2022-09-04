@@ -41,7 +41,7 @@ class ProfileScreen extends StatelessWidget {
                     style: Styles.headLineStyle2,
                   ),
                   Text(
-                    "New-York",
+                    "Baku",
                     style: Styles.headLineStyle3,
                   ),
                   Gap(AppLayout.getHeight(5)),

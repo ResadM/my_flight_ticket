@@ -98,7 +98,7 @@ class TicketScreen extends StatelessWidget {
                               Row(
                                 children: [
                                   Text(
-                                    "NYC",
+                                    "BAK",
                                     style: Styles.headLineStyle3,
                                   ),
                                   const Spacer(),
@@ -169,7 +169,7 @@ class TicketScreen extends StatelessWidget {
                                   ),
                                   const Spacer(),
                                   Text(
-                                    "LDN",
+                                    "IST",
                                     style: Styles.headLineStyle3,
                                   )
                                 ],
@@ -182,7 +182,7 @@ class TicketScreen extends StatelessWidget {
                                   SizedBox(
                                     width: AppLayout.getWidth(100),
                                     child: Text(
-                                      "New-York",
+                                      "Baku",
                                       style: Styles.headLineStyle3,
                                     ),
                                   ),
@@ -193,7 +193,7 @@ class TicketScreen extends StatelessWidget {
                                   SizedBox(
                                     width: AppLayout.getWidth(100),
                                     child: Text(
-                                      "London",
+                                      "Istanbul",
                                       textAlign: TextAlign.end,
                                       style: Styles.headLineStyle3,
                                     ),
@@ -213,7 +213,7 @@ class TicketScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  "Flutter Dash",
+                                  "Rashad Mammadov",
                                   style: Styles.headLineStyle2,
                                 ),
                                 Gap(AppLayout.getHeight(5)),
@@ -227,7 +227,7 @@ class TicketScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.end,
                               children: [
                                 Text(
-                                  "5221 478566",
+                                  "AZ 123456",
                                   style: Styles.headLineStyle2,
                                 ),
                                 Gap(AppLayout.getHeight(5)),
@@ -249,7 +249,7 @@ class TicketScreen extends StatelessWidget {
                               crossAxisAlignment: CrossAxisAlignment.start,
                               children: [
                                 Text(
-                                  "0055 444 77147",
+                                  "0123 456 78901",
                                   style: Styles.headLineStyle2,
                                 ),
                                 Gap(AppLayout.getHeight(5)),
@@ -301,7 +301,7 @@ class TicketScreen extends StatelessWidget {
                                       scale: 11,
                                     ),
                                     Text(
-                                      " *** 2456",
+                                      " *** 0123",
                                       style: Styles.headLineStyle2,
                                     )
                                   ],

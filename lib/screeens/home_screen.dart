@@ -103,7 +103,7 @@ class HomeScreen extends StatelessWidget {
               padding: EdgeInsets.only(left: AppLayout.getHeight(20)),
               child: Row(
                 children: List.generate(
-                    10,
+                    5,
                     (index) => const TicketView(
                           ticketMargin: 16,
                         )),

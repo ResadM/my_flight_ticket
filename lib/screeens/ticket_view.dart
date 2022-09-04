@@ -36,7 +36,7 @@ class TicketView extends StatelessWidget {
                   Row(
                     children: [
                       Text(
-                        "NYC",
+                        "BAK",
                         style:
                             Styles.headLineStyle3.copyWith(color: Colors.white),
                       ),
@@ -89,7 +89,7 @@ class TicketView extends StatelessWidget {
                       const ThickContainer(),
                       const Spacer(),
                       Text(
-                        "LDN",
+                        "IST",
                         style:
                             Styles.headLineStyle3.copyWith(color: Colors.white),
                       )
@@ -102,7 +102,7 @@ class TicketView extends StatelessWidget {
                       SizedBox(
                         width: AppLayout.getWidth(100),
                         child: Text(
-                          "New-York",
+                          "Baku",
                           style: Styles.headLineStyle4
                               .copyWith(color: Colors.white),
                         ),
@@ -115,7 +115,7 @@ class TicketView extends StatelessWidget {
                       SizedBox(
                         width: AppLayout.getWidth(100),
                         child: Text(
-                          "London",
+                          "Istanbul",
                           textAlign: TextAlign.end,
                           style: Styles.headLineStyle4
                               .copyWith(color: Colors.white),
